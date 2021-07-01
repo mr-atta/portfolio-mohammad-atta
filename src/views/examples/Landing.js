@@ -40,7 +40,7 @@ import {
   InputGroup,
   Container,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 // core components
@@ -85,9 +85,10 @@ class Landing extends React.Component {
                         <span>completed with examples</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        These are the things that existed me to be a programmer:
+                        1) the speed is the most parameter which excited me. 2)
+                        Other than that , Everything is possible as far as
+                        technology is been concerned(life be open).
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -148,13 +149,22 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            PROJECTS{" "}
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Support Gaza The idea is to support people in
+                            Palestine, especially in Gaza due to the recent
+                            events, by donating for them. we used : HTML5, CSS3,
+                            JS ,VS Code, GitHub , Slack , Zoom ,Libraries
+                            (Google font , Swal,…)
                           </p>
+                          <Button
+                            className="mt-4"
+                            color="primary"
+                            href="https://supportgaza.github.io/donation/"
+                          >
+                            Support Gaza
+                          </Button>
                           <div>
                             <Badge color="primary" pill className="mr-1">
                               design
@@ -166,18 +176,18 @@ class Landing extends React.Component {
                               creative
                             </Badge>
                           </div>
-                          <Button
+                          {/* <Button
                             className="mt-4"
                             color="primary"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Learn more
-                          </Button>
+                          </Button> */}
                         </CardBody>
                       </Card>
                     </Col>
-                    <Col lg="4">
+                    {/* <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
@@ -206,14 +216,14 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="success"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Learn more
                           </Button>
                         </CardBody>
                       </Card>
-                    </Col>
-                    <Col lg="4">
+                    </Col> */}
+                    {/* <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
@@ -242,27 +252,23 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="warning"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Learn more
                           </Button>
                         </CardBody>
                       </Card>
-                    </Col>
+                    </Col> */}
                   </Row>
                 </Col>
               </Row>
             </Container>
           </section>
-          <section className="section section-lg">
+          {/* <section className="section section-lg">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
-                  <img
-                    alt="..."
-                    className="img-fluid floating"
-                    src={promo1}
-                  />
+                  <img alt="..." className="img-fluid floating" src={promo1} />
                 </Col>
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
@@ -330,17 +336,13 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <section className="section bg-secondary">
+          </section> */}
+          {/* <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col md="6">
                   <Card className="bg-default shadow border-0">
-                    <CardImg
-                      alt="..."
-                      src={cardImg}
-                      top
-                    />
+                    <CardImg alt="..." src={cardImg} top />
                     <blockquote className="card-blockquote">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -393,7 +395,7 @@ class Landing extends React.Component {
                     <a
                       className="font-weight-bold text-warning mt-5"
                       href="#pablo"
-                      onClick={e => e.preventDefault()}
+                      onClick={(e) => e.preventDefault()}
                     >
                       A beautiful UI Kit for impactful websites
                     </a>
@@ -401,9 +403,9 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
+          </section> */}
           <section className="section pb-0 bg-gradient-warning">
-            <Container>
+            {/* <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-lg-2 ml-lg-auto" md="6">
                   <div className="position-relative pl-md-5">
@@ -450,7 +452,7 @@ class Landing extends React.Component {
                           <a
                             className="text-success"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Learn more
                           </a>
@@ -478,7 +480,7 @@ class Landing extends React.Component {
                           <a
                             className="text-warning"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Learn more
                           </a>
@@ -508,7 +510,7 @@ class Landing extends React.Component {
           </section>
           <section className="section section-lg">
             <Container>
-              <Row className="justify-content-center text-center mb-lg">
+              {/* <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
                   <h2 className="display-3">The amazing Team</h2>
                   <p className="lead text-muted">
@@ -517,8 +519,8 @@ class Landing extends React.Component {
                     potentially record maximum.
                   </p>
                 </Col>
-              </Row>
-              <Row>
+              </Row> */}
+              {/* <Row>
                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
                     <img
@@ -537,7 +539,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle"
                           color="warning"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -545,7 +547,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="warning"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -553,7 +555,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="warning"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -581,7 +583,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle"
                           color="primary"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -589,7 +591,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="primary"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -597,7 +599,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="primary"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -623,7 +625,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -631,7 +633,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -639,7 +641,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -665,7 +667,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle"
                           color="success"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -673,7 +675,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="success"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -681,7 +683,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="success"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -689,8 +691,8 @@ class Landing extends React.Component {
                     </div>
                   </div>
                 </Col>
-              </Row>
-            </Container>
+              </Row> */}
+            </Container>{" "}
           </section>
           <section className="section section-lg pt-0">
             <Container>
@@ -724,7 +726,7 @@ class Landing extends React.Component {
             </Container>
           </section>
           <section className="section section-lg bg-gradient-default">
-            <Container className="pt-lg pb-300">
+            {/* <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
                   <h2 className="display-3 text-white">Build something</h2>
@@ -768,7 +770,7 @@ class Landing extends React.Component {
                   </p>
                 </Col>
               </Row>
-            </Container>
+            </Container> */}
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
@@ -798,7 +800,7 @@ class Landing extends React.Component {
                       </p>
                       <FormGroup
                         className={classnames("mt-5", {
-                          focused: this.state.nameFocused
+                          focused: this.state.nameFocused,
                         })}
                       >
                         <InputGroup className="input-group-alternative">
@@ -817,7 +819,7 @@ class Landing extends React.Component {
                       </FormGroup>
                       <FormGroup
                         className={classnames({
-                          focused: this.state.emailFocused
+                          focused: this.state.emailFocused,
                         })}
                       >
                         <InputGroup className="input-group-alternative">
@@ -829,8 +831,12 @@ class Landing extends React.Component {
                           <Input
                             placeholder="Email address"
                             type="email"
-                            onFocus={() => this.setState({ emailFocused: true })}
-                            onBlur={() => this.setState({ emailFocused: false })}
+                            onFocus={() =>
+                              this.setState({ emailFocused: true })
+                            }
+                            onBlur={() =>
+                              this.setState({ emailFocused: false })
+                            }
                           />
                         </InputGroup>
                       </FormGroup>
